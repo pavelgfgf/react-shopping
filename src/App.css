@@ -9,11 +9,15 @@ body {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
   padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .app {
   max-width: 800px;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto;
   background: #ffffff;
   border-radius: 28px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
